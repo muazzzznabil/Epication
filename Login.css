@@ -1,0 +1,11 @@
+@font-face{
+    font-family:google;
+    src: url("font/googleSans-Medium.ttf");
+}
+@font-face{
+    font-family:google1;
+    src:url("font/GoogleSans-Regular.ttf");
+}
+body{
+    background-color:#080b16;
+}
