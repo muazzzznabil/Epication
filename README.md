@@ -1,2 +1,2 @@
-# lucknut
+# Epication
 assignment web interface
