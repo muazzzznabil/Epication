@@ -91,6 +91,7 @@ footer {
   color: white;
   text-align: center;
   font-weight: 400;
+  background: #181d31;
 }
 /* Padding antara Hotline dengan number phone */
 .footerphone {
@@ -98,6 +99,7 @@ footer {
 }
 .email {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .destination {
   text-align: centre;
