@@ -15,7 +15,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-.header {
+header {
   font-family: google;
   position: fixed;
   top: 0;
