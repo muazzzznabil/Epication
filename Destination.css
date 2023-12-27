@@ -1,0 +1,15 @@
+.navbar{
+    background-color: blue;
+}
+
+ul{
+    display:flex;
+    left: 0;
+    list-style-type:none;
+    gap: 20px;
+    padding-top: 20px ;
+    padding: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    float: right;
+}
