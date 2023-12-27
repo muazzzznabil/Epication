@@ -1,6 +1,6 @@
 @font-face {
   font-family: google;
-  src: url("font/GoogleSans-Medium.ttf");
+  src: url("font/googleSans-Medium.ttf");
 }
 @font-face {
   font-family: google1;
@@ -15,7 +15,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-header {
+.header {
   font-family: google;
   position: fixed;
   top: 0;
@@ -86,7 +86,7 @@ header {
   font-size: 20px;
 }
 
-footer {
+.footer {
   font-family: google1;
   color: white;
   text-align: center;
@@ -101,11 +101,22 @@ footer {
 }
 .destination {
   text-align: centre;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .destinationwidth {
-  max-width: 30%;
+  width: 250px;
+  max-height: 155px;
   padding-right: 10px;
   padding-left: 10px;
+}
+figcaption {
+  font-family: google1;
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 .textDestination {
   color: white;
@@ -115,4 +126,9 @@ footer {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.advertisement {
+  color: white;
+  font-family: google1;
+  font-size: 20px;
 }
