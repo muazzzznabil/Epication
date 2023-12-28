@@ -18,14 +18,13 @@ body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  background: url("image/bali.jpg") no-repeat;
+  background: #080b16;
   background-size: cover;
   background-position: center;
 }
-.image{
-    opacity:50%;
+.gambar{
+  position: absolute;
 }
-
 header {
   font-family: google;
   position: fixed;
@@ -59,10 +58,26 @@ header {
 
 .login {
   padding-top: 100px;
-  font-weight: 700;
+  font-weight: 900;
 }
-
+.in .sign{
+  margin-top:20px;
+  width: 100%;
+  height: 30px;
+  background: #fff;
+  border: none;
+  outline: none;
+  color: #080b16;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+}
+.in{
+  padding-top:20px;
+}
 .wrapper {
+  justify-content: center;
   margin-top: 150px;
   background: transparent;
   border: 2px solid rgba(255, 255, 255, 0.2);
@@ -70,7 +85,7 @@ header {
   padding: 30px 40px;
   color: #fff;
   width: 420px;
-  height: 400px;
+  height: 520px;
   backdrop-filter:blur(20px);
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
@@ -95,10 +110,12 @@ header {
   font-size: 16px;
   color: #fff;
   padding: 20px 20px 20px 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 .input-box input::placeholder {
-  color: #fff;
+  color: white;
   text-align: center;
+  font-weight:400;
 }
 
 .input-box i {
@@ -149,4 +166,23 @@ header {
 }
 .register-link p a:hover {
   text-decoration: underline;
+}
+
+footer {
+  font-family: google;
+  position: fixed;
+  top: 600px;
+  left: 0;
+  width: 100%;
+  padding-top: 20px ;
+  text-align:center;
+  background: #181d31;
+}
+/* Padding antara Hotline dengan number phone */
+.footerphone {
+  padding-top: 20px;
+}
+.email {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
