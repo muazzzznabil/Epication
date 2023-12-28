@@ -6,59 +6,43 @@
   font-family: google1;
   src: url("font/GoogleSans-Regular.ttf");
 }
-body {
-  background-color: #0c101f;
-  display: flex;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+.trapeziumLeft {
+  width: 70vw;
+  height: 30vh;
+  /* margin-top: 10vh; */
+  margin-top: 0;
 }
 
-.logo {
-  font-size: 32px;
-  color: white;
-  text-decoration: none;
-  font-weight: 700;
+.trapeziumRight {
+  width: 70vw;
+  height: 30vh;
+  margin-left: 10vh;
 }
 
-.header {
-  font-family: google;
-  position: fixed;
-  top: 0;
-  left: 0;
+.trapeziumLeft img {
   width: 100%;
-  padding: 20px 100px;
-  background: #181d31;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: cover;
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0% 1%);
+  transform: rotatey(180deg);
+}
+.trapeziumRight img {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: cover;
+
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0% 1%); */
+
+  /* transform: rotatex(180deg);  */
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+}
+.trapezium {
+  margin: 15vh 0 30px 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-}
-
-.navbar a {
-  font-size: 15px;
-  color: white;
-  font-weight: 500;
-  text-decoration: none;
-  margin-left: 40px;
-}
-.navbar a:hover {
-  color: grey;
-}
-
-footer {
-  font-family: google1;
-  color: white;
-  align-items: center;
-  justify-content: center;
-  font-weight: 400;
-}
-/* Padding antara Hotline dengan number phone */
-.footerphone {
-  padding-top: 20px;
-}
-.email {
-  padding-top: 20px;
 }
