@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Homepage.css">
     <link rel="stylesheet" href="Catalogues.css">
+    <script src="Catalogues.js"></script>
     <title>Catalogue</title>
 </head>
 
@@ -25,25 +26,55 @@
 
 
     <div class="trapezium">
-        <div class="trapeziumLeft">
+
+        <div class="trapeziumLeft fade">
             <img src="image/turkiye.jpg" alt="bali">
+            <div class="textCatalogue">Turkiye</div>
         </div>
 
-        <div class="trapeziumRight">
-            <img src="image/swiss.jpg" alt="swiss">
+        <div class="trapeziumLeft fade">
+            <img src="image/indo(catalogue).jpg" alt="bali">
+            <div class="textCatalogue">Indonesia</div>
         </div>
-    </div>
+
+        <div class="trapeziumLeft fade">
+            <img src="image/swiss.jpg" alt="bali">
+            <div class="textCatalogue">Switzerland</div>
+        </div>
+
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("trapeziumLeft");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                slides[slideIndex - 1].style.display = "block";
+                setTimeout(showSlides, 2000);
+            }
+        </script>
+        <!-- <div class="trapeziumRight">
+            <img src="image/instanbul.jpg" alt="instanbul">
+            <img src="image/bali(trapezium).jpg" alt="instanbul">
+            <img src="image/zurich.jpg" alt="instanbul">
+        </div>
+    </div> -->
 
 
 
 
-
+        <!-- 
     <footer>
         <p class="footerphone">Hotline Number</p>
         <p class="footerphone">013-4356725 (Farid)</p>
         <p>019-5667824 (Imran)</p>
         <p class="email">Subscribe to our email</p>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
