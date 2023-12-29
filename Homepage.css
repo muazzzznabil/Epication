@@ -107,6 +107,9 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
 }
+.destination :hover{
+  transform:scale(1.05);
+}
 .destinationwidth {
   width: 250px;
   max-height: 155px;
