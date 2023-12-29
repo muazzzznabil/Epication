@@ -6,7 +6,7 @@
   font-family: google1;
   src: url("font/GoogleSans-Regular.ttf");
 }
-
+/* html, body { height: 100%; } */
 .trapeziumLeft {
   width: 70vw;
   height: 30vh;
@@ -43,7 +43,7 @@
 .trapezium {
   margin: 15vh 0 30px 0;
   display: flex;
-  position: relative;
+  /* position: relative; */
   /* max-width: 50vw;
   max-height: 30vh; */
 }
@@ -53,25 +53,27 @@
   font-family: google1;
   position: relative;
   font-size: 2em;
-  padding: 8px 12px;
-  position: absolute;
+  /* padding: 8px 12px; */
+  padding: 0;
+  /* position: absolute; */
   /* top: 1px; */
   /* bottom: 8px; */
-  /* text-align: center; */
+  text-align: center;
   text-shadow: 5px 10px 13px black;
 }
 .trapeziumRight .textCatalogue {
   color: #f2f2f2;
   font-family: google1;
-  position: relative;
+  /* position: relative; */
   font-size: 2em;
-  padding: 8px 12px;
-  position: absolute;
+  /* padding: 8px 12px; */
+  padding: 0;
+  /* position: absolute; */
   /* top: 1px; */
   /* right: 1px; */
 
   /* bottom: 8px; */
-  /* text-align: center; */
+  text-align: center;
   text-shadow: 5px 10px 13px black;
 }
 
@@ -128,9 +130,9 @@
     font-size: 11px;
   }
 }
-.trapeziumLeft,
+/* .trapeziumLeft,
 .trapeziumRight {
   display: grid;
-  /* justify-content: center; 
-  /* align-items: center; */
-}
+  justify-content: center; 
+   align-items: center;
+} */
