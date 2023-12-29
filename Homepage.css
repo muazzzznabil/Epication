@@ -108,7 +108,7 @@ footer {
   justify-content: center;
 }
 .destination :hover{
-  transform:scale(1.08);
+  transform:scale(1.05);
 }
 .destinationwidth {
   width: 250px;
