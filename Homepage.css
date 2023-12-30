@@ -56,7 +56,7 @@ header {
   color: white;
 }
 .welcome {
-  padding-top: 70px;
+  margin-top: 200px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -132,8 +132,21 @@ figcaption {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.advertisement {
-  color: white;
-  font-family: google1;
-  font-size: 20px;
+.ads{
+  margin-top:100px;
+  letter-spacing:0;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+}
+.tb{
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  width: 250px;
+  max-height: 155px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
