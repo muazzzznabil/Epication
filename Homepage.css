@@ -87,6 +87,7 @@ header {
 }
 
 footer {
+  width: 100%;
   font-family: google1;
   color: white;
   text-align: center;
@@ -107,8 +108,8 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
 }
-.destination :hover{
-  transform:scale(1.05);
+.destination :hover {
+  transform: scale(1.05);
 }
 .destinationwidth {
   width: 250px;
@@ -132,18 +133,18 @@ figcaption {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.ads{
-  margin-top:100px;
-  letter-spacing:0;
+.ads {
+  margin-top: 100px;
+  letter-spacing: 0;
   position: absolute;
   top: 140%;
   left: 50%;
   transform: translate(-50%, -50%);
   justify-content: center;
 }
-.tb{
-  display:flex;
-  justify-content:center;
+.tb {
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 250px;
   max-height: 155px;
