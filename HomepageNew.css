@@ -11,6 +11,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+img{
+  image-resolution: 70%;
+}
 body {
   background-color: #080b16;
 }
@@ -44,15 +47,15 @@ header {
 .navbar a:hover {
   color: grey;
 }
-.image .i1{
-  max-width:100%;
-  height:auto;
-  position:absolute;
+.image .i1 {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
   z-index: -1;
 }
-main{
-  width:auto;
-  height:auto;
+main {
+  width: auto;
+  height: auto;
 }
 .backgroundPicture {
   position: absolute;
@@ -99,8 +102,10 @@ main{
   justify-content: center;
   text-align: center;
   align-items: center;
+  
 }
 .desti .textDestination {
+  margin-bottom: 30px;
   font-family: google1;
   text-align: center;
   font-size: 40px;
@@ -113,11 +118,13 @@ main{
   transform: scale(1.03);
 }
 .desti .destinationwidth {
-  padding-top: 30px;
+  /* padding-top: 30px; */
   width: 250px;
   max-height: 155px;
   padding-right: 10px;
   padding-left: 10px;
+  border-radius: 20px;
+  /* box-shadow: -5px 5px 70px rgb(95, 91, 91); */
 }
 .desti figcaption {
   font-family: google1;
@@ -130,7 +137,7 @@ main{
 
 footer {
   font-family: google1;
-  margin-top:40%;
+  margin-top: 40%;
 }
 
 footer .foot {
@@ -159,6 +166,7 @@ footer .foot {
   width: 250px;
   padding-right: 10px;
   padding-left: 10px;
+  text-shadow: -5px 5px 35px rgb(191, 175, 175);
 }
 .ads figcaption {
   font-family: google1;
@@ -175,11 +183,16 @@ footer .foot {
   font-weight: 550;
 }
 .ads1 {
+  position:relative;
   margin-top: 450px;
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-right: 53%;
+  margin-right:75%;
+  /* margin-left:1%; */
+}
+.box img {
+  border-radius: 10px;
 }
 .cover {
   width: 250px;
@@ -192,15 +205,25 @@ footer .foot {
   width: 790px;
   height: 470px;
   background: white;
+  border-radius: 10px;
+  box-shadow: -5px 5px 35px rgb(95, 91, 91);
+
 }
 .box p {
-  margin:20px;
+  margin: 20px;
   font-family: google1;
   text-align: center;
   line-height: 25px;
-  font-size:18px;
+  font-size: 18px;
 }
 .ads1 img {
   width: 250px;
   height: 150px;
+}
+.ads1 .cover .box:hover{
+  transform:scale(1.01);
+}
+figure{
+
+  border-radius: 20px;
 }
