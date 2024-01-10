@@ -1,0 +1,118 @@
+@font-face {
+    font-family: google;
+    src: url(font/GoogleSans-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:google;
+  }
+header {
+    font-family: google;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #181d31;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  .logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .navbar a {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+  .navbar a:hover {
+    color: grey;
+  }
+  .container{
+  }
+  .container .background{
+    max-width:100%;
+    height:auto;
+    position:absolute;
+    z-index:-1;
+    opacity:80%;
+  }
+  .blog{
+    margin-top:30%;
+    position:absolute;
+    height:600px;
+    width:667px;
+    background-color: white;
+    border-radius: 10px;
+    right:30%;
+    left:70%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+  }
+  .blog img{
+    position:relative;
+    max-height:250px;
+    height:auto;
+    margin-top:20px;
+    border-radius:15px;
+  }
+  .container-blog{
+    display:flex;
+  }
+  .textBlog{
+    position:absolute;
+    font-size:80px;
+    color:blanchedalmond;
+    margin-top:25%;
+    right:70%;
+    left:15%;
+    text-shadow: 10px 10px 10px black;
+  }
+  .transform-text{
+    transform: translateY(-10px) scale(1.2);
+  }
+
+  /* Blog kedua */
+
+  .textBlog1{
+    position:absolute;
+    font-size:80px;
+    color:blanchedalmond;
+    margin-top:56%;
+    right:10%;
+    text-shadow: 10px 10px 10px black;
+  }
+  .blog1 img{
+    position:relative;
+    max-height:250px;
+    height:auto;
+    margin-top:20px;
+    border-radius:15px;
+  }
+  .blog1{
+    margin-top:70%;;
+    position:absolute;
+    height:400px;
+    width:667px;
+    background-color: white;
+    border-radius: 10px;
+    right:70%;
+    left:30%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+  }
+  
