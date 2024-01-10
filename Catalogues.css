@@ -124,18 +124,37 @@
   margin-top: 100px;
   display: flex;
   justify-content: center;
-  margin: 100px 0 100px 0;
+  margin: 100px 0 20px 0;
 }
 .destinationTop img {
-  width: 30vw;
+  width: 40vw;
   aspect-ratio: 1/1;
   border-radius: 10px;
 }
 
-.destinationLeft {
-}
 .destinationLeft img {
-  width: 30vw;
-  height: 15vw;
+  width: 40vw;
+  height: 20vw;
   margin: 0 20px 0 20px;
+}
+
+.destinationRight {
+}
+
+.destinationBot {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 20px 0;
+}
+
+.destinationRight img {
+  width: 40vw;
+  height: 20vw;
+  margin: 0 20px 0 0;
+  border-radius: 10px;
+}
+.destinationBot img {
+  width: 40vw;
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
 }
