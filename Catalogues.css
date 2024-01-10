@@ -9,14 +9,14 @@
 
 .trapeziumLeft {
   width: 70vw;
-  height: 30vh;
+  height: 60vh;
   /* margin-top: 10vh; */
   /* margin-top: 0; */
 }
 
 .trapeziumRight {
   width: 70vw;
-  height: 30vh;
+  height: 60vh;
   /* margin-left: 10vh; */
 }
 
@@ -33,7 +33,8 @@
 }
 .trapeziumRight img {
   width: 100%;
-  height: 100%;
+  height: 10000px;
+  max-height: 100%;
   background-size: contain;
   border-radius: 10px;
   left: 0;
@@ -43,7 +44,7 @@
   clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
 }
 .trapezium {
-  margin: 15vh 0 30px 0;
+  margin: 0 0 30px 0;
   display: flex;
   /* position: relative; */
   /* max-width: 50vw;
@@ -129,32 +130,40 @@
 .destinationTop img {
   width: 40vw;
   aspect-ratio: 1/1;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .destinationLeft img {
   width: 40vw;
   height: 20vw;
+  max-height: 50%;
   margin: 0 20px 0 20px;
+  object-fit: cover;
 }
 
-.destinationRight {
+.destinationRight img {
+  background-size: contain;
 }
 
 .destinationBot {
   display: flex;
   justify-content: center;
-  margin: 0 0 20px 0;
+  margin: 0 20px 20px 0;
 }
 
 .destinationRight img {
   width: 40vw;
   height: 20vw;
+  max-height: 50%;
   margin: 0 20px 0 0;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  object-fit: cover;
 }
 .destinationBot img {
   width: 40vw;
   aspect-ratio: 1 / 1;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+}
+.packageSection {
+  width: 50vw;
 }
