@@ -43,15 +43,17 @@ header {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-}
-.container .gambarbackground {
-  position: absolute;
-  opacity: 50%;
+  background-image: url("image/streetNew.jpg");
+  background-size:cover;
+  background-position: center;
 }
 .container .gambarbackground .background {
   display: block;
   width: 100%;
   height:auto;
+  position: absolute;
+  opacity: 50%;
+  background-size: cover;
 }
 .container-blog {
   display: flex;
@@ -59,7 +61,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 /* Blog first */
 
 .textBlog1 {
