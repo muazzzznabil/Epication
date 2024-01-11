@@ -58,6 +58,7 @@ header {
 .container-blog {
   display: flex;
   padding-bottom:150px;
+  justify-content: center;
 }
 
 /* Blog Second */
@@ -66,7 +67,6 @@ header {
   font-size: 80px;
   color: blanchedalmond;
   text-shadow: 1px 5px 10px black;
-  padding-left:15%;
   padding-top:15%;
   padding-right:15%;
 }
