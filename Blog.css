@@ -67,9 +67,8 @@ header {
   font-size: 80px;
   color: blanchedalmond;
   text-shadow: 1px 5px 10px black;
-  padding-left: 15%;
+  padding-left: 25%;
   padding-top: 15%;
-  padding-right: 15%;
 }
 .blog img {
   position: relative;
@@ -81,6 +80,7 @@ header {
   transform: scale(1.005);
 }
 .blog {
+  margin-right:25%;
   position: relative;
   height: auto;
   width: 667px;
