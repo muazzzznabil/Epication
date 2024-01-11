@@ -44,11 +44,11 @@ header {
   justify-content: center;
   align-items: center;
 }
-.container .gambarbackground{
-  position:absolute;
-  width:100%;
-  height:auto;
-  display:block;
+.container .gambarbackground {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 .container .gambarbackground .background {
   max-width: 100%;
@@ -57,7 +57,7 @@ header {
 }
 .container-blog {
   display: flex;
-  padding-bottom:150px;
+  padding-bottom: 150px;
   justify-content: center;
   align-items: center;
 }
@@ -69,7 +69,7 @@ header {
   font-size: 80px;
   color: blanchedalmond;
   text-shadow: 1px 5px 10px black;
-  padding-left:10%;
+  padding-left: 10%;
 }
 .blog1 img {
   position: relative;
@@ -78,8 +78,7 @@ header {
   border-radius: 15px;
 }
 .blog1 {
-  margin-left:8%;
-  margin-top:100px;
+  margin-top: 100px;
   position: relative;
   height: auto;
   width: 667px;
@@ -88,7 +87,6 @@ header {
   padding: 20px;
   text-align: center;
   box-shadow: 0 0 20px black;
-  margin-bottom: 0;
 }
 
 .blog1 .caption {
@@ -97,10 +95,10 @@ header {
   margin-left: 30px;
   font-size: 18px;
 }
-.gambarhov{
+.gambarhov {
   transition: 0.1s;
 }
-.gambarhov :hover{
+.gambarhov :hover {
   transform: scale(1.01);
 }
 
@@ -110,7 +108,7 @@ header {
   font-size: 80px;
   color: blanchedalmond;
   text-shadow: 1px 5px 10px black;
-  padding-right:15%;
+  padding-right: 15%;
 }
 .blog img {
   position: relative;
@@ -138,7 +136,6 @@ header {
   font-size: 18px;
 }
 
-
 /* Blog third */
 
 .textBlog3 {
@@ -162,7 +159,7 @@ header {
   padding: 20px;
   text-align: center;
   box-shadow: 0 0 20px black;
-  margin-right:10%;
+  margin-right: 10%;
 }
 
 .blog3 .caption {
@@ -171,41 +168,41 @@ header {
   margin-left: 30px;
   font-size: 18px;
 }
-.gambarhov{
+.gambarhov {
   transition: 0.1s;
 }
-.gambarhov :hover{
+.gambarhov :hover {
   transform: scale(1.01);
 }
 
 /* Footer */
 .footer {
-  margin-top:50px;
-  position:relative;
-  min-height:300px;
-  width:100%;
+  margin-top: 50px;
+  position: relative;
+  min-height: 300px;
+  width: 100%;
   background-color: #181d31;
 }
-.footer .foot{
-  text-align:center;
-  padding-top:30px;
-  color:white;
-  letter-spacing:1px;
+.footer .foot {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  letter-spacing: 1px;
 }
-.footer .foot p{
-  font-size:18px;
+.footer .foot p {
+  font-size: 18px;
 }
-.footer .foot h5{
-  margin-top:15px;
-  font-size:13px;
+.footer .foot h5 {
+  margin-top: 15px;
+  font-size: 13px;
 }
-.footer .foot .email{
-  margin-top:15px;
+.footer .foot .email {
+  margin-top: 15px;
   border-radius: 5px;
-  width:650px;
-  height:40px;
-  padding:20px;
+  width: 650px;
+  height: 40px;
+  padding: 20px;
 }
-.footer .foot .email::placeholder{
-  font-size:15px;
+.footer .foot .email::placeholder {
+  font-size: 15px;
 }
