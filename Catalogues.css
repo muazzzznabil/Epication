@@ -164,6 +164,27 @@
   aspect-ratio: 1 / 1;
   /* border-radius: 10px; */
 }
-.packageSection {
-  width: 50vw;
+.packageCarousel {
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0 100px 0;
+}
+
+.item img {
+  border-radius: 10px;
+}
+
+.carousel-caption h3 {
+  font-size: 100px;
+  text-shadow: 10px 10px 20px black;
+  font-family: google1;
+}
+
+.carousel-caption p {
+  font-size: 50px;
+  text-shadow: 5px 5px 10px black;
+  font-family: google1;
 }
