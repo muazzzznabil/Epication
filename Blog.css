@@ -65,6 +65,7 @@ header {
 /* Blog first */
 
 .textBlog1 {
+  margin-top:100px;
   position: relative;
   font-size: 80px;
   color: blanchedalmond;
