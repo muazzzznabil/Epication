@@ -39,7 +39,7 @@ header {
 }
 .container {
   background-color: #2b324c;
-  height: 388vh;
+  height: auto;
   width: 100%;
 }
 .container .gambarbackground {
