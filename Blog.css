@@ -42,11 +42,11 @@ header {
   height: auto;
   width: 100%;
 }
-.container .gambarbackground {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  display: block;
+.container .gambarbackground{
+  position:absolute;
+  width:100%;
+  height:auto;
+  display:block;
 }
 .container .gambarbackground .background {
   max-width: 100%;
@@ -55,8 +55,8 @@ header {
 }
 .container-blog {
   display: flex;
-  margin-top: 2.65%;
-  padding-bottom: 25%;
+  margin-top:2.65%;
+  padding-bottom:25%;
 }
 /* Blog Second */
 .textBlog {
@@ -65,7 +65,7 @@ header {
   color: blanchedalmond;
   text-shadow: 1px 5px 10px black;
   margin-right: 63%;
-  margin-left: 16%;
+  margin-left:16%;
   margin-top: 22%;
 }
 .blog img {
@@ -78,14 +78,14 @@ header {
   transform: scale(1.005);
 }
 .blog {
-  margin-top: 60px;
+  margin-top:60px;
   position: absolute;
   height: auto;
   width: 667px;
   background-color: white;
   border-radius: 20px;
   right: 7%;
-  padding: 20px;
+  padding: 20px ;
   text-align: center;
   box-shadow: 0 0 20px black;
 }
@@ -95,6 +95,7 @@ header {
   margin-left: 30px;
   font-size: 18px;
 }
+
 
 /* Blog first */
 
@@ -113,7 +114,7 @@ header {
   border-radius: 15px;
 }
 .blog1 {
-  margin-top: 60px;
+  margin-top:60px;
   position: absolute;
   height: auto;
   width: 667px;
@@ -131,41 +132,41 @@ header {
   margin-left: 30px;
   font-size: 18px;
 }
-.gambarhov {
+.gambarhov{
   transition: 0.1s;
 }
-.gambarhov :hover {
+.gambarhov :hover{
   transform: scale(1.01);
 }
 
 /* Footer */
 .footer {
-  margin-top: 50px;
-  position: relative;
-  min-height: 300px;
-  width: 100%;
+  margin-top:50px;
+  position:relative;
+  min-height:300px;
+  width:100%;
   background-color: #181d31;
 }
-.footer .foot {
-  text-align: center;
-  padding-top: 30px;
-  color: white;
-  letter-spacing: 1px;
+.footer .foot{
+  text-align:center;
+  padding-top:30px;
+  color:white;
+  letter-spacing:1px;
 }
-.footer .foot p {
-  font-size: 18px;
+.footer .foot p{
+  font-size:18px;
 }
-.footer .foot h5 {
-  margin-top: 15px;
-  font-size: 13px;
+.footer .foot h5{
+  margin-top:15px;
+  font-size:13px;
 }
-.footer .foot .email {
-  margin-top: 15px;
+.footer .foot .email{
+  margin-top:15px;
   border-radius: 5px;
-  width: 650px;
-  height: 40px;
-  padding: 20px;
+  width:650px;
+  height:40px;
+  padding:20px;
 }
-.footer .foot .email::placeholder {
-  font-size: 15px;
+.footer .foot .email::placeholder{
+  font-size:15px;
 }
