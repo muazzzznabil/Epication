@@ -3,38 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fit Picture in a Box</title>
+  <title>Hover Effect with Description</title>
 
   <style>
-    /* Style the container box */
-    .image-box {
-      width: 300px; /* Set the desired width for the box */
-      height: 200px; /* Set the desired height for the box */
-      border: 1px solid #ccc; /* Optional: Add a border for better visibility */
-      overflow: hidden; /* Ensure that the image doesn't overflow the box */
+    /* Style the box */
+    .hover-box {
+      width: 200px;
+      height: 200px;
+      background-color: lightblue;
+      position: relative;
+      overflow: hidden;
     }
 
-    /* Style the image to fit inside the box */
-    .image-box img {
-      width: 100%; /* Make the image take 100% of the width of its container */
-      height: auto; /* Maintain the aspect ratio */
-      display: block; /* Remove extra space below the image */
+    /* Style the description */
+    .description {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Show description on hover */
+    .hover-box:hover .description {
+      opacity: 1;
     }
   </style>
 </head>
 <body>
 
-  <!-- Container box -->
-  <div class="image-box">
-    <!-- Image -->
-    <img src="image/bali.jpg" alt="Your Image">
+  <!-- Box with description -->
+  <div class="hover-box">
+    <div class="description">
+      This is a description.
+    </div>
   </div>
-
-
-
-
-
-
 
 </body>
 </html>

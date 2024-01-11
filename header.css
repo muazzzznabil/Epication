@@ -2,18 +2,27 @@
   font-family: google;
   src: url(font/GoogleSans-Regular.ttf);
 }
+.head{
+  z-index: 100;
+}
+.quotes{
+  font-family: google;
+  height:40px;
+  padding:10px;
+  text-align:center;
+  background-color: #0a0f20;
+  color:white;
+}
 header {
     font-family: google;
-    position: fixed;
+    position: relative;
     top: 0;
-    left: 0;
     width: 100%;
     padding: 20px 100px;
     background: #181d31;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
   }
   .logo {
     font-size: 32px;
@@ -30,4 +39,5 @@ header {
   }
   .navbar a:hover {
     color: grey;
+    text-decoration:underline;
   }
