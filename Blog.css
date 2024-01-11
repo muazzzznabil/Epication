@@ -39,7 +39,7 @@ header {
 }
 .container {
   background-color: #2b324c;
-  height: 388vh;
+  height: auto;
   width: 100%;
 }
 .container .gambarbackground{
@@ -80,7 +80,7 @@ header {
 .blog {
   margin-top:60px;
   position: absolute;
-  height: 99%;
+  height: auto;
   width: 667px;
   background-color: white;
   border-radius: 20px;
