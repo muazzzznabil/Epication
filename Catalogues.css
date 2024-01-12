@@ -90,6 +90,24 @@ carousel-item img {
   font-family: google1;
 }
 
+.TurkiyeImage {
+  position: relative;
+}
+.textCaptionTurkiye {
+  position: absolute;
+  bottom: 77%;
+  left: 15%;
+  color: aliceblue;
+  text-shadow: 5px 5px 18px rgb(58, 57, 57);
+}
+
+.textCaptionTurkiye h2 {
+  font-size: 5vw;
+}
+
+.countryPrice {
+  font-size: 2vw;
+}
 /* .pictureCatalogue {
 font-size: 100px;
 position: relative;
