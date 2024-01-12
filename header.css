@@ -41,3 +41,9 @@ header {
     color: grey;
     text-decoration:underline;
   }
+  #user{
+    font-size:25px;
+    color:white;
+    padding-left:20px;
+  }
+ 

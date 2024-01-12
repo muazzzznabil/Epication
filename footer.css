@@ -1,4 +1,11 @@
 /* Footer */
+@font-face {
+  font-family: google;
+  src: url("font/GoogleSans-Regular.ttf");
+}
+*{
+  font-family: google;
+}
 .footer {
     position: relative;
     min-height: 300px;
