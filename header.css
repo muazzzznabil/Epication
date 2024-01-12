@@ -15,7 +15,7 @@
 }
 header {
   font-family: google;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -24,7 +24,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
 }
 .logo {
   font-size: 32px;
@@ -41,4 +40,12 @@ header {
 }
 .navbar a:hover {
   color: grey;
+}
+#user{
+  margin-left:20px;
+  font-size:25px;
+  color:white;
+}
+.icon #user:hover{
+  color:grey;
 }
