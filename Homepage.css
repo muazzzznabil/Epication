@@ -70,6 +70,8 @@
 }
 .main .align-ads .ads-box:hover{
   transform:scale(1.03);
+  box-shadow:0 0 10px white;
+  border:1px solid white;
 }
 .desti {
   position: relative;
@@ -78,6 +80,9 @@
 }
 figure img{
   box-shadow: 0 0 20px black;
+}
+figure img:hover{
+  box-shadow: 0 0 20px white;
 }
 .desti .destination {
   font-family: google;
@@ -102,6 +107,7 @@ figure img{
 .desti .destination :hover {
   transform: scale(1.001);
 }
+
 .desti .destinationwidth {
   width: 248px;
   max-height: 155px;
