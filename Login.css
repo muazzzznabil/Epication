@@ -11,7 +11,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: google1;
-  color: white;
 }
 
 body {
@@ -22,7 +21,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-.gambar{
+.gambar {
   position: absolute;
 }
 header {
@@ -60,8 +59,8 @@ header {
   padding-top: 100px;
   font-weight: 900;
 }
-.sign{
-  margin-top:10px;
+.sign {
+  margin-top: 10px;
   width: 100%;
   height: 30px;
   background: #fff;
@@ -73,8 +72,8 @@ header {
   cursor: pointer;
   font-size: 14px;
 }
-.in{
-  padding-top:20px;
+.in {
+  padding-top: 20px;
 }
 .wrapper {
   justify-content: center;
@@ -85,14 +84,14 @@ header {
   padding: 30px 40px;
   width: 420px;
   height: 520px;
-  backdrop-filter:blur(20px);
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .wrapper h1 {
   text-align: center;
   font-size: 36;
-  color:#181d31;
+  color: #181d31;
 }
 
 .wrapper .input-box {
@@ -110,12 +109,12 @@ header {
   font-size: 16px;
   color: #fff;
   padding: 20px 20px 20px 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .input-box input::placeholder {
   color: white;
   text-align: center;
-  font-weight:400;
+  font-weight: 400;
 }
 
 .input-box i {
@@ -174,8 +173,8 @@ footer {
   top: 600px;
   left: 0;
   width: 100%;
-  padding-top: 20px ;
-  text-align:center;
+  padding-top: 20px;
+  text-align: center;
   background: #181d31;
 }
 /* Padding antara Hotline dengan number phone */
