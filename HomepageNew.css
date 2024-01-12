@@ -63,7 +63,6 @@ main {
 }
 .desti {
   position: relative;
-  top: 400px;
   padding-top: 40px;
 }
 .desti .destination {
@@ -87,13 +86,11 @@ main {
   transform: scale(1.03);
 }
 .desti .destinationwidth {
-  /* padding-top: 30px; */
   width: 250px;
   max-height: 155px;
   padding-right: 10px;
   padding-left: 10px;
   border-radius: 20px;
-  /* box-shadow: -5px 5px 70px rgb(95, 91, 91); */
 }
 .desti figcaption {
   font-family: google1;
