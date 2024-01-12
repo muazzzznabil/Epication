@@ -2,6 +2,17 @@
   font-family: google;
   src: url(font/GoogleSans-Regular.ttf);
 }
+.head {
+  z-index: 100;
+}
+.quotes {
+  font-family: google;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  background-color: #0a0f20;
+  color: white;
+}
 header {
   font-family: google;
   position: fixed;
