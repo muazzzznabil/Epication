@@ -100,14 +100,14 @@ figure img{
   font-weight: 700;
 }
 .desti .destination :hover {
-  transform: scale(1.03);
+  transform: scale(1.001);
 }
 .desti .destinationwidth {
-  width: 250px;
+  width: 248px;
   max-height: 155px;
   border-radius: 20px;
-  margin-right:15px;
-  margin-left:15px;
+  margin-right:13px;
+  margin-left:13px;
 }
 .desti figcaption {
   font-family: google;
