@@ -5,30 +5,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Catalogues.css">
+    <script src="Catalogues.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Homepage.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css.map">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap..js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="Catalogues.js"></script>
+    <!-- <link rel="stylesheet" href="header.css"> -->
+
+    <link rel="stylesheet" href="footer.css">
+
     <title>Catalogue</title>
+
+    <style>
+        @font-face {
+            font-family: google;
+            src: url(font/GoogleSans-Regular.ttf);
+        }
+
+        .headerCatalogue {
+            font-family: google;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 100px;
+            background: #181d31;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .logoCatalogue {
+            font-size: 32px;
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .navbarCatalogue a {
+            font-size: 15px;
+            color: white;
+            font-weight: 500;
+            text-decoration: none;
+            margin-left: 40px;
+        }
+
+        .navbar a:hover {
+            color: grey;
+        }
+
+        /* Footer */
+        .footerCatalogue {
+            position: relative;
+            min-height: 400px;
+            width: 100%;
+            background-color: #181d31;
+        }
+
+        .footerCatalogue .footCatalogue {
+            text-align: center;
+            padding-top: 30px;
+            color: white;
+            letter-spacing: 1px;
+        }
+
+        .footerCatalogue .footCatalogue p {
+            font-size: 18px;
+        }
+
+        .footerCatalogue .footCatalogue h5 {
+            margin-top: 15px;
+            font-size: 13px;
+        }
+
+        .footerCatalogue .footCatalogue .emailCatalogue {
+            margin-top: 15px;
+            border-radius: 5px;
+            width: 650px;
+            height: 40px;
+            padding: 20px;
+        }
+
+        .footerCatalogue .footCatalogue .emailCatalogue::placeholder {
+            font-size: 15px;
+        }
+
+        .carousel-item img {
+            width: 50%;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <a href="#" class="logo">epication</a>
-        <nav class="navbar">
-            <a href="HomepageNew.html">Home
-                <a href="Catalogues.html">Catalogue</a>
-                <a href="Blog.html">Blog</a>
-                <a href="#">About Us</a>
-
+    <div class="headerCatalogue">
+        <a href="#" class="logoCatalogue">epication</a>
+        <nav class="navbarCatalogue">
+            <a href="HomepageNew.html">Home</a>
+            <a href="Catalogues.html">Catalogue</a>
+            <a href="Blog.html">Blog</a>
+            <a href="About.html">About Us</a>
         </nav>
-    </header>
+    </div>
 
 
-    <div class="trapezium">
+    <div class="trapezium" style="display: flex;" width=100%;>
 
-        <div class="trapeziumLeft  fade">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 " src="image/bali(trapezium).jpg" alt="First slide" height="500px"
+                        style="object-fit: cover; clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 " src="image/greatWall.jpg" alt="Second slide" height="500px"
+                        style="object-fit: cover ;clip-path:polygon(0 0, 50% 0, 100% 100%, 0 100%);">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 " src="image/zurich.jpg" alt="Third slide" height="500px"
+                        style="object-fit: cover ;clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);">
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 " src="image/bali(trapezium).jpg" alt="First slide" height="500px"
+                        style="object-fit: cover; clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 " src="image/greatWall.jpg" alt="Second slide" height="500px"
+                        style="object-fit: cover ;clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 " src="image/zurich.jpg" alt="Third slide" height="500px"
+                        style="object-fit: cover ;clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);">
+                </div>
+            </div>
+        </div>
+        <!-- <div class="trapeziumLeft  fade">
             <img src="image/turkiye.jpg" alt="bali">
             <div class="textCatalogueLeft">Turkiye</div>
         </div>
@@ -41,7 +172,7 @@
         <div class="trapeziumLeft  fade">
             <img src="image/swiss.jpg" alt="swiss">
             <div class="textCatalogueLeft">Switzerland</div>
-        </div>
+        </div> -->
 
         <!-- <div class="trapeziumRight">
             <img src="image/instanbul.jpg" alt="instanbul">
@@ -49,7 +180,7 @@
             <img src="image/zurich.jpg" alt="instanbul">
         </div>
     </div> -->
-        <div class="trapeziumRight instanbul fade">
+        <!-- <div class="trapeziumRight instanbul fade">
             <img src="image/instanbul.jpg" alt="instanbul">
             <div class="textCatalogueRight"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
                 laudantium
@@ -67,13 +198,14 @@
             <div class="textCatalogueRight"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates officia
                 laborum nobis distinctio, quaerat consectetur totam, illum velit temporibus commodi reprehenderit cum
                 quod! Nam ab esse officiis consequatur fugiat veniam!</div>
-        </div>
+        </div> -->
+
 
 
     </div>
 
 
-    <script>
+    <!-- <script>
         var slideIndex = 0;
         showSlides();
 
@@ -95,10 +227,11 @@
             slidesRight[slideIndex - 1].style.display = "block";
             setTimeout(showSlides, 2000);
         }
-    </script>
+    </script> -->
 
 
     <div class="destinationTop">
+
         <img src="image/balloonSq.jpg" alt="Ballon at turkiye" style="border-radius: 20px 0 0 20px ;">
         <div class="destinationLeft">
             <img src="image/Japan.jpg" alt="Mount Verzasca in swiss"
@@ -169,12 +302,18 @@
         </div>
     </div>
 
-    <footer>
-        <p class="footerphone">Hotline Number</p>
-        <p class="footerphone">013-4356725 (Farid)</p>
-        <p>019-5667824 (Imran)</p>
-        <p class="email">Subscribe to our email</p>
-    </footer>
+    <div class="footerCatalogue">
+        <div class="footCatalogue">
+            <h3>Hotline Number</h3>
+            <br />
+            <p>013-4367635</p>
+            <p>019-5667824</p>
+            <br />
+            <h3>Subscribe to our email</h3>
+            <input type="email" placeholder="Enter your email" class="emailCatalogue" />
+            <h5>Copyright © 2023 | epication.co</h5>
+        </div>
+    </div>
 </body>
 
 
