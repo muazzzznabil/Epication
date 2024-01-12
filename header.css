@@ -41,3 +41,11 @@ header {
 .navbar a:hover {
   color: grey;
 }
+#user{
+  margin-left:20px;
+  font-size:25px;
+  color:white;
+}
+.icon #user:hover{
+  color:grey;
+}
