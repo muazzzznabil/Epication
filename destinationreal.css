@@ -31,9 +31,23 @@
 
 
 .box .itenary{
+  padding-top: 5%;
     background-color: white;
     color: black;
-    
+    width: 460px;
+}
+.itenary h3{
+  font-size: 24px;
+  line-height:100%;
+}
+.itenary h5{
+  font-size: 15px;
+  text-decoration: underline;
+}
+.itenary p{
+  font-size: 14px ; 
+  line-height:80%; 
+  padding-bottom: 20%;
 }
 
 .boxbottom{
@@ -47,6 +61,34 @@
     background-color: rgb(255, 255, 255);
     padding: 2% 2% 2% 2%;
     border-radius: 2%;
+    line-height:1.5;
+}
+.desc h3{
+  font-size: 30px;
+ 
+}
+
+.desc h4{
+  text-align: left;
+  font-style: oblique;
+  font-size: 20px;
+ 
+}
+
+.desc h5{
+  font-size: 15px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.desc ul{
+  text-align: left;
+  padding-left: 2%;
+}
+.desc p{
+  font-size: 10px ; 
+  line-height:120%; 
+   text-align: justify;
 }
 
 img {
@@ -56,7 +98,7 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .image-slide {
   position: relative;
-  width: 2900px;
+  width: 998px;
   padding-left: 2%;
   padding-right: 2%;
 }
@@ -86,8 +128,8 @@ img {
   user-select: none;
   -webkit-user-select: none;
   justify-content: space-between;
-  margin-left: -45.5%;
-  margin-right: 9.52%;
+  margin-left: -47.2%;
+  margin-right: 2.9%;
 }
 
 /* Position the "next button" to the right */
