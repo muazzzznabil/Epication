@@ -37,9 +37,27 @@
             src: url(font/GoogleSans-Regular.ttf);
         }
 
-        .headerCatalogue {
+        @font-face {
             font-family: google;
-            position: fixed;
+            src: url(font/GoogleSans-Regular.ttf);
+        }
+
+        .head {
+            z-index: 100;
+        }
+
+        .quotes {
+            font-family: google;
+            height: 40px;
+            padding: 10px;
+            text-align: center;
+            background-color: #0a0f20;
+            color: white;
+        }
+
+        header {
+            font-family: google;
+            position: relative;
             top: 0;
             left: 0;
             width: 100%;
@@ -48,17 +66,16 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            z-index: 100;
         }
 
-        .logoCatalogue {
+        .logo {
             font-size: 32px;
             color: white;
             text-decoration: none;
             font-weight: 700;
         }
 
-        .navbarCatalogue a {
+        .navbar a {
             font-size: 15px;
             color: white;
             font-weight: 500;
@@ -69,6 +86,17 @@
         .navbar a:hover {
             color: grey;
         }
+
+        #user {
+            margin-left: 20px;
+            font-size: 25px;
+            color: white;
+        }
+
+        .icon #user:hover {
+            color: grey;
+        }
+
 
         /* Footer */
         .footerCatalogue {
@@ -105,82 +133,90 @@
         .footerCatalogue .footCatalogue .emailCatalogue::placeholder {
             font-size: 15px;
         }
-
-        .carousel-item img {
-            width: 50%;
-        }
     </style>
 </head>
 
 <body>
-    <div class="headerCatalogue">
-        <a href="#" class="logoCatalogue">epication</a>
-        <nav class="navbarCatalogue">
-            <a href="HomepageNew.html">Home</a>
+    <!-- Navigation Bar dan Logo -->
+    <section class="quotes">
+        <p>
+            "Travel makes one modest, you see what a tiny place you occupy in the
+            world." - Gustave Flaubert
+        </p>
+    </section>
+    <header>
+        <a href="#" class="logo">epication</a>
+        <nav class="navbar">
+            <a href="Homepage.html">Home</a>
             <a href="Catalogues.html">Catalogue</a>
             <a href="Blog.html">Blog</a>
             <a href="About.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="#">Terms and Conditions</a>
         </nav>
-    </div>
+        <div class="icon">
+            <i class="bx bx-search" id="user"></i>
+            <a href="LoginNew.html"><i class="bx bx-user" id="user"></i></a>
+            <i class="bx bx-cart" id="user"></i>
+        </div>
+    </header>
 
 
-    <div class="trapezium" style="display: flex; justify-content: space-between;">
+    <!-- <div class="trapezium" style="display: flex; ">
 
         <div class="carousel " data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class=" w-100 " src="image/bali(trapezium).jpg" alt="First slide" height="400px"
-                        style="object-fit: cover; ;">
+                    <img class="left " src="image/klcc.jpg" alt="First slide" style="object-fit: cover; ;">
                 </div>
                 <div class="carousel-item">
-                    <img class=" w-100 " src="image/greatWall.jpg" alt="Second slide" height="400px"
-                        style="object-fit: cover ;">
+                    <img class="left" src="image/Japan.jpg" alt="Second slide" style="object-fit: cover ;">
                 </div>
                 <div class="carousel-item">
-                    <img class=" w-100 " src="image/zurich.jpg" alt="Third slide" height="400px"
-                        style="object-fit: cover ;">
+                    <img class="left " src="image/zurich.jpg" alt="Third slide" style="object-fit: cover ;">
                 </div>
             </div>
         </div>
 
-        <div id="" class="carousel fade" data-ride="carousel">
+        <div id="" class="carousel" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 " src="image/bali(trapezium).jpg" alt="First slide" height="500px"
+                    <img class="d-block  right" src="image/bali(trapezium).jpg" alt="First slide"
                         style="object-fit: cover; ">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 " src="image/greatWall.jpg" alt="Second slide" height="500px"
+                    <img class="d-block  right" src="image/kashmir.jpg" alt="Second slide"
                         style="object-fit: cover ;">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 " src="image/zurich.jpg" alt="Third slide" height="500px"
-                        style="object-fit: cover ;">
+                    <img class="d-block  right" src="image/zurich.jpg" alt="Third slide" style="object-fit: cover ;">
                 </div>
             </div>
         </div>
 
-    </div>
+    </div> -->
 
 
     <div class="destinationTop">
         <div class="TurkiyeImage">
-            <img src="image/balloonSq.jpg" alt="Ballon at turkiye" style="border-radius: 20px 0 0 20px ;">
-            <div class="textCaptionTurkiye">
+            <img src="image/balloonSq.jpg" id="HoverZoom" alt="Ballon at turkiye"
+                style="border-radius: 20px 0 0 20px ;">
+            <div class="textCaptionTurkiye" id="HoverZoom">
                 <h2>Turkiye <span class="countryPrice">MYR 9,000</span></h2>
             </div>
         </div>
         <div class="destinationLeft">
             <div class="TurkiyeImage">
-                <img src="image/Japan.jpg" alt="Mount Verzasca in swiss"
+                <img src="image/Japan.jpg" id="HoverZoom" alt="Mount Verzasca in swiss"
                     style="display: block; margin-bottom: 20px; border-radius: 0 20px 0 0;">
-                <div class="textCaptionTurkiye" style="bottom: 5%; left: 10%;">
+                <div class="textCaptionTurkiye " id="HoverZoom" style="bottom: 5%; left: 10%;">
                     <h2>Japan <span class="countryPrice">MYR 6,500</span></h2>
                 </div>
             </div>
             <div class="TurkiyeImage">
-                <img src="image/verzascaSwiss.jpg" alt="Mount Fuji Japan" style="border-radius: 0 0 20px;">
-                <div class="textCaptionTurkiye" style="bottom: 5%; left: 10%;">
+                <img src="image/verzascaSwiss.jpg" id="HoverZoom" alt="Mount Fuji Japan"
+                    style="border-radius: 0 0 20px;">
+                <div class="textCaptionTurkiye" id="HoverZoom" style="bottom: 5%; left: 10%;">
                     <h2>Switzerland <span class="countryPrice">MYR 15,000</span></h2>
                 </div>
             </div>
@@ -190,22 +226,24 @@
     <div class="destinationBot">
         <div class="destinationRight">
             <div class="TurkiyeImage">
-                <img src="image/China.jpg" alt="Great Wall of China"
+                <img src="image/China.jpg" id="HoverZoom" alt="Great Wall of China"
                     style="display: block; margin-bottom: 20px ;border-radius: 20px 0 0 0; ">
-                <div class="textCaptionTurkiye" style="bottom: 5%; left: 10%;">
+                <div class="textCaptionTurkiye" id="HoverZoom" style="bottom: 5%; left: 10%;">
                     <h2>China <span class="countryPrice">MYR 11,000</span></h2>
                 </div>
             </div>
             <div class="TurkiyeImage">
-                <img src="image/Vietnam.jpg" alt="Vietnam MarketPlace" style="border-radius: 0 0 0 20px;">
-                <div class="textCaptionTurkiye" style="bottom : 5%; left: 10%;">
+                <img src="image/Vietnam.jpg" id="HoverZoom" alt="Vietnam MarketPlace"
+                    style="border-radius: 0 0 0 20px;">
+                <div class="textCaptionTurkiye" id="HoverZoom" style="bottom : 5%; left: 10%;">
                     <h2>Vietnam <span class="countryPrice">MYR 4,300</span></h2>
                 </div>
             </div>
         </div>
         <div class="TurkiyeImage">
-            <img src="image/dubaiPetak.jpg" alt="City Of Dubai" id="dubaiPetak" style="border-radius: 0 20px 20px 0;">
-            <div class="textCaptionTurkiye">
+            <img src="image/dubaiPetak.jpg" id="HoverZoom" alt="City Of Dubai" id="dubaiPetak"
+                style="border-radius: 0 20px 20px 0;">
+            <div class="textCaptionTurkiye" id="HoverZoom">
                 <h2>Dubai <span class="countryPrice">MYR 15,000</span></h2>
             </div>
         </div>

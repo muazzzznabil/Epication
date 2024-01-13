@@ -39,7 +39,7 @@ carousel-item img {
 
 .destinationLeft img {
   width: 40vw;
-  height: 20vw;
+  height: 19.5vw;
   max-height: 50%;
   margin: 0 20px 0 20px;
   object-fit: cover;
@@ -57,7 +57,7 @@ carousel-item img {
 
 .destinationRight img {
   width: 40vw;
-  height: 20vw;
+  height: 19.5vw;
   max-height: 50%;
   margin: 0 20px 0 0;
   /* border-radius: 10px; */
@@ -110,6 +110,14 @@ carousel-item img {
 
 .countryPrice {
   font-size: 2vw;
+}
+
+#HoverZoom {
+  transition: transform 0.2s;
+}
+
+#HoverZoom:hover {
+  transform: scale(1.02);
 }
 /* .pictureCatalogue {
 font-size: 100px;
