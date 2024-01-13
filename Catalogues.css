@@ -7,118 +7,22 @@
   src: url("font/GoogleSans-Regular.ttf");
 }
 
-.trapeziumLeft {
-  width: 70vw;
-  height: 60vh;
-  /* margin-top: 10vh; */
-  /* margin-top: 0; */
+body {
+  background-image: url(image/backgroundCatalogue.jpg);
+  background-size: cover;
 }
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: google;
+} */
 
-.trapeziumRight {
-  width: 70vw;
-  height: 60vh;
-  /* margin-left: 10vh; */
-}
-
-.trapeziumLeft img {
-  /* display: none; */
-  width: 100%;
-  height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  object-fit: cover;
-  border-radius: 10px;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0% 1%);
-  transform: rotatey(180deg);
-}
-.trapeziumRight img {
-  width: 100%;
-  height: 10000px;
-  max-height: 100%;
-  background-size: contain;
-  border-radius: 10px;
-  left: 0;
-  /* background-repeat: no-repeat; */
-  /* object-fit: cover; */
-  /* display: block; */
-  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
-}
 .trapezium {
-  margin: 0 0 30px 0;
-  display: flex;
-  /* position: relative; */
-  /* max-width: 50vw;
-  max-height: 30vh; */
+  margin-top: 20vh;
 }
-
-.textCatalogueLeft {
-  color: #f2f2f2;
-  font-family: google1;
-  position: relative;
-  font-size: 600%;
-  /* padding: 8px 12px; */
-  padding: 0;
-  /* position: absolute; */
-
-  bottom: 180px;
-  right: 120px;
-  text-align: center;
-  text-shadow: 5px 10px 13px black;
-}
-.textCatalogueRight {
-  color: #f2f2f2;
-  font-family: google1;
-  position: relative;
-  width: 30vw;
-  font-size: 1rem;
-  /* padding: 8px 12px; */
-  padding: 0;
-  /* position: absolute; */
-  /* top: 1px; */
-  left: 180px;
-  transform: translateY(-160px);
-
-  /* bottom: 8px; */
-  text-align: center;
-
-  text-shadow: 5px 10px 13px black;
-}
-
-.instanbul {
-  background-image: url("images/istanbul.png");
-}
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 2s;
-}
-
-@-webkit-keyframes fade {
-  0%,
-  100% {
-    opacity: 0;
-  }
-  70% {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  0%,
-  100% {
-    opacity: 0;
-  }
-  70% {
-    opacity: 1;
-  }
-}
-/* On Smaller Screen, Decrease Text Size */
-@media only screen and (max-width: 300px) {
-  .text {
-    font-size: 11px;
-  }
+carousel-item img {
+  height: 10px;
 }
 
 .destinationTop {
@@ -135,7 +39,7 @@
 
 .destinationLeft img {
   width: 40vw;
-  height: 20vw;
+  height: 19.5vw;
   max-height: 50%;
   margin: 0 20px 0 20px;
   object-fit: cover;
@@ -153,7 +57,7 @@
 
 .destinationRight img {
   width: 40vw;
-  height: 20vw;
+  height: 19.5vw;
   max-height: 50%;
   margin: 0 20px 0 0;
   /* border-radius: 10px; */
@@ -178,13 +82,69 @@
 }
 
 .carousel-caption h3 {
-  font-size: 100px;
+  font-size: 7vw;
   text-shadow: 10px 10px 20px black;
   font-family: google1;
 }
 
 .carousel-caption p {
-  font-size: 50px;
+  font-size: 2vw;
   text-shadow: 5px 5px 10px black;
   font-family: google1;
 }
+
+.TurkiyeImage {
+  position: relative;
+}
+.textCaptionTurkiye {
+  position: absolute;
+  bottom: 80%;
+  left: 10%;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.textCaptionTurkiye h2 {
+  font-size: 4vw;
+}
+
+.countryPrice {
+  font-size: 2vw;
+}
+
+#HoverZoom {
+  transition: transform 0.2s;
+}
+#HoverZoomText {
+  transition: transform 0.2s;
+}
+#HoverZoomText:hover {
+  transform: scale(1.03);
+}
+#HoverZoom:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px white;
+}
+/* .pictureCatalogue {
+font-size: 100px;
+position: relative;
+text-align: center;
+color: #f2f2f2;
+}
+
+
+.textOverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .textOverlay {
+      font-size: 1.5rem;
+  }
+} */
