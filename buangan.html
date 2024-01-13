@@ -3,41 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML Input Form</title>
+  <title>Search Form</title>
 </head>
 <body>
 
-  <!-- Form element -->
-  <form action="/submit" method="post">
-    <!-- Text input -->
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" required>
+  <!-- Search form -->
+  <form action="/search" method="get">
+    <label for="searchQuery">Search:</label>
+    <input type="search" id="searchQuery" name="q" placeholder="Enter your search term" required>
+    <input type="submit" value="Search">
+  </form>
 
-    <br>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Form</title>
+</head>
+<body>
 
-    <!-- Password input -->
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
-
-    <br>
-
-    <!-- Radio buttons -->
-    <label>Gender:</label>
-    <input type="radio" id="male" name="gender" value="male" checked>
-    <label for="male">Male</label>
-    <input type="radio" id="female" name="gender" value="female">
-    <label for="female">Female</label>
-
-    <br>
-
-    <!-- Checkbox -->
-    <input type="checkbox" id="subscribe" name="subscribe" checked>
-    <label for="subscribe">Subscribe to newsletter</label>
-
-    <br>
-
-    <!-- Submit button -->
-    <input type="submit" value="Submit">
+  <!-- Search form -->
+  <form action="/search" method="get">
+    <label for="searchQuery">Search:</label>
+    <input type="search" id="searchQuery" name="q" placeholder="Enter your search term" required>
+    <input type="submit" value="Search">
   </form>
 
 </body>
