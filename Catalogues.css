@@ -18,6 +18,9 @@ body {
   font-family: google;
 } */
 
+.trapezium {
+  margin-top: 20vh;
+}
 carousel-item img {
   height: 10px;
 }
@@ -79,13 +82,13 @@ carousel-item img {
 }
 
 .carousel-caption h3 {
-  font-size: 100px;
+  font-size: 7vw;
   text-shadow: 10px 10px 20px black;
   font-family: google1;
 }
 
 .carousel-caption p {
-  font-size: 50px;
+  font-size: 2vw;
   text-shadow: 5px 5px 10px black;
   font-family: google1;
 }
@@ -95,14 +98,14 @@ carousel-item img {
 }
 .textCaptionTurkiye {
   position: absolute;
-  bottom: 77%;
-  left: 15%;
-  color: aliceblue;
-  text-shadow: 5px 5px 18px rgb(58, 57, 57);
+  bottom: 80%;
+  left: 10%;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
 .textCaptionTurkiye h2 {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 .countryPrice {
