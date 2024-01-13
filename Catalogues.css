@@ -115,9 +115,15 @@ carousel-item img {
 #HoverZoom {
   transition: transform 0.2s;
 }
-
+#HoverZoomText {
+  transition: transform 0.2s;
+}
+#HoverZoomText:hover {
+  transform: scale(1.03);
+}
 #HoverZoom:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
+  box-shadow: 0 0 10px white;
 }
 /* .pictureCatalogue {
 font-size: 100px;
