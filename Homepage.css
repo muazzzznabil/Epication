@@ -15,6 +15,12 @@
   background-position: center;
   background-size:cover;
 }
+.logo{
+  text-shadow:0 0 10px black;
+}
+.logo:hover{
+  text-shadow:0 0 1.2px white;
+}
 .welcome{
   font-size:50px;
   color:white;
