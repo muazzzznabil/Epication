@@ -96,7 +96,9 @@
   object-fit: cover;
   margin: 20px;
 }
-
+.textMember {
+  text-align: center;
+}
 #FaQs {
   margin-top: 30px;
 }
