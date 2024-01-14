@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turkiye</title>
-    <link rel="stylesheet" href="destinationreal.css">
+    <title>Account</title>
+    <link rel="stylesheet" href="Account.css">
     <link
     rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
@@ -38,8 +38,88 @@
     </div>
   </header>
 
-  <main style="">
-    bapoak ko hijau
+  <main>
+   <div class="content">
+    <div class="top-content">
+      <div class="profile-picture">
+        <img class="pfp" src="image/muaz.jpg" >
+
+      </div>
+      <div class="details">
+        <h1>Profile</h1>
+        <table id="table-profile">
+          <tr>
+            <th>Name</th>
+            <td id="nameCell">Ahmad Muaz Nabil bin Zawawi</td>
+            <td>
+              <button onclick="toggleInput('nameInput')">Update</button>
+              <input type="text" id="nameInput" style="display: none;" placeholder="Enter new name">
+            </td>
+          </tr>
+          <tr>
+            <th>Age</th>
+            <td id="ageCell">21</td>
+            <td>
+              <button onclick="toggleInput('ageInput')">Update</button>
+              <input type="number" id="ageInput" style="display: none;" placeholder="Enter new age" min="1">
+            </td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td id="emailCell">s66526@example.com</td>
+            <td>
+              <button onclick="toggleInput('emailInput')">Update</button>
+              <input type="email" id="emailInput" style="display: none;" placeholder="Enter new email">
+            </td>
+          </tr>
+          <tr>
+            <th>Phone Number</th>
+            <td id="phoneCell">+1234567890</td>
+            <td>
+              <button onclick="toggleInput('phoneInput')">Update</button>
+              <input type="tel" id="phoneInput" style="display: none;" placeholder="Enter new phone number" pattern="[0-9]{10}">
+            </td>
+          </tr>
+        </table>
+        
+        <button id="buttonConfirmUpdate" onclick="updateTable()">Confirm Update</button>
+     <script src="Account.js"></script>   
+        
+      </div>
+    </div>
+    <div class="low-content">
+      <h1>History</h1>
+      <div class="history">
+        <table id="table-history">
+          <tr>
+            <th>Date</th>
+            <th>Destination</th>
+            <th>Package</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>12 Dec 2023</td>
+            <td>Dubai</td>
+            <td></td>
+            <td>RM3004.00</td>
+          </tr>
+          <tr>
+            <td>06 May 2023</td>
+            <td>Indonesia</td>
+            <td></td>
+            <td>RM1523.00</td>
+          </tr>
+          <tr>
+            <td>12 Jan 2023</td>
+            <td>Switzerland <br> Japan <br> UAE</td>
+            <td>Adventure Explore</td>
+            <td>RM19000.00</td>
+          </tr>
+          
+        </table>
+      </div>
+    </div>
+   </div>
 
   </main>
 
