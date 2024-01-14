@@ -11,6 +11,8 @@
     />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel-="stylesheet" href="alert.css" />
+    <link rel="stylesheet" href="alert.js" />
   </head>
   <body>
     <!-- Navigation Bar dan Logo -->
@@ -41,30 +43,47 @@
     <div class="main">
       <p class="tajuk" id="contact">Contact Us</p>
       <form action="/submit" method="post">
-      <div class="boxcontact">
-        <div class="container-box-contact">
-          <input type="text" placeholder="Name" name="Name" class="input" required/>
-          <input
-            type="text"
-            placeholder="Phone Number"
-            name="Name"
-            class="input" required
-          />
-          <input type="text" placeholder="Email" name="Name" class="input" requied/>
-          <input
-            type="text"
-            placeholder="How we can help you"
-            name="Name"
-            class="input"
-            id="input1" required
-          />
-          <br>
-          <button type="submit" class="submit">Submit</button>
+        <div class="boxcontact">
+          <div class="container-box-contact">
+            <input
+              type="text"
+              placeholder="Name"
+              name="Name"
+              class="input"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Phone Number"
+              name="Name"
+              class="input"
+              required
+            />
+            <input
+              type="text"
+              placeholder="Email"
+              name="Name"
+              class="input"
+              requied
+            />
+            <input
+              type="text"
+              placeholder="How we can help you"
+              name="Name"
+              class="input"
+              id="input1"
+              required
+            />
+            <br />
+            <input
+              type="submit"
+              class="submit"
+              value="Submit"
+              onclick="alert('Alert this pages');"
+            />
+          </div>
         </div>
-        
-      </div>
       </form>
-
 
       <!-- footer -->
       <div class="footer">
