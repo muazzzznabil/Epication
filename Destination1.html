@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turkiye</title>
-    <link rel="stylesheet" href="header&footer.css">
     <link rel="stylesheet" href="destinationreal.css">
-    
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+  />
+  <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="footer.css" />
 </head>
 <body>
-     <!-- Navigation Bar dan Logo -->
-     <header>
-        <a href="#" class="logo">epication</a>
-        <nav class="navbar">
-          <a href="Homepage.html">Home</a>
-          <a href="Catalogues.html">Catalogue</a>
-          <a href="Blog.html">Blog</a>
-          <a href="#">About Us</a>
-        </nav>
-    </header>
+  <!-- Navigation Bar dan Logo -->
+  <section class="quotes">
+    <p>
+      "Travel makes one modest, you see what a tiny place you occupy in the
+      world." - Gustave Flaubert
+    </p>
+  </section>
+  <header>
+    <a href="Homepage.html" class="logo">epication</a>
+    <nav class="navbar">
+      <a href="Homepage.html">Home</a>
+      <a href="Catalogues.html">Catalogue</a>
+      <a href="Blog.html">Blog</a>
+      <a href="About.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="faq.html">FaQs</a>
+      <a href="#">Terms and Conditions</a>
+    </nav>
+    <div class="icon">
+      <i class="bx bx-search" id="user"></i>
+      <a href="LoginNew.html"><i class="bx bx-user" id="user"></i></a>
+      <i class="bx bx-cart" id="user"></i>
+    </div>
+  </header>
     
     <main>
         <div class="content">
@@ -29,17 +47,17 @@
                   <div class="image-slide">
                     <div class="mySlides">
                       <div class="numbertext">1 / 3</div>
-                      <img src="image/ista1.jpg" style="width:100%">
+                      <img src="image/ista1.jpg" style="width:100%; height:550px">
                     </div>
                   
                     <div class="mySlides">
                       <div class="numbertext">2 / 3</div>
-                      <img src="image/ista2.jpg" style="width:100%">
+                      <img src="image/ista2.jpg" style="width:100%; height:550px">
                     </div>
                   
                     <div class="mySlides">
                       <div class="numbertext">3 / 3</div>
-                      <img src="image/ista3.jpg" style="width:100%">
+                      <img src="image/ista3.jpg" style="width:100%; height:550px">
                     </div>
                       
                   
@@ -56,13 +74,13 @@
                   
                     <div class="row">
                       <div class="column">
-                        <img class="demo cursor" src="image/ista1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Ortokoy Mosque">
+                        <img class="demo cursor" src="image/ista1.jpg" style="width:100%; height:150px" onclick="currentSlide(1)" alt="Ortokoy Mosque">
                       </div>
                       <div class="column">
-                        <img class="demo cursor" src="image/ista2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Küçüksu Pavilion">
+                        <img class="demo cursor" src="image/ista2.jpg" style="width:100%; height:150px" onclick="currentSlide(2)" alt="Küçüksu Pavilion">
                       </div>
                       <div class="column">
-                        <img class="demo cursor" src="image/ista3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Hagia Sophia">
+                        <img class="demo cursor" src="image/ista3.jpg" style="width:100%; height:150px" onclick="currentSlide(3)" alt="Hagia Sophia">
                       </div>
                      
                     </div>
@@ -149,13 +167,17 @@
    
 
 
-    <footer>
-        <div class="foot">
-          <p class="footerphone">Hotline Number</p>
-          <p class="footerphone">013-4356725 (Farid)</p>
-          <p>019-5667824 (Imran)</p>
-          <p class="email">Subscribe to our email</p>
-        </div>
-    </footer>
+    <div class="footer">
+      <div class="foot">
+        <h3>Hotline Number</h3>
+        <br />
+        <p>013-4367635</p>
+        <p>019-5667824</p>
+        <br />
+        <h3>Subscribe to our email</h3>
+        <input type="email" placeholder="Enter your email" class="email" />
+        <h5>Copyright © 2023 | epication.co</h5>
+      </div>
+    </div>
 </body>
 </html>
