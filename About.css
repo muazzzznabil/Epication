@@ -6,7 +6,6 @@
 }
 .container {
   position: relative;
-  height: 400vh;
   width: 100%;
   background-color: #5e698f;
 }
@@ -39,6 +38,7 @@
   padding: 30px;
   margin-top: 20px;
   border-radius: 13px;
+  margin-bottom: 40px;
 }
 .box .caption {
   margin-top: 50px;
@@ -84,14 +84,27 @@
 .container-box-contact .input::placeholder {
   font-size: 15px;
 }
+
+.epicationMember {
+  display: flex;
+  justify-content: center;
+}
+.epicationMember img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 20px;
+}
+
 #FaQs {
   margin-top: 30px;
 }
 .align-faq {
-    display:flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 .align-faq .faq {
   position: relative;
@@ -105,38 +118,38 @@
   box-shadow: 0 0 5px black;
   text-align: center;
 }
-.align-faq .faq .question{
-    text-align:center;
-    justify-content: center;
-    align-items: center;
-    display:flex;
+.align-faq .faq .question {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-.align-faq .faq .question .questionrow{
-    display:inline;
+.align-faq .faq .question .questionrow {
+  display: inline;
 }
-.align-faq .faq .question .faqQuestion{
-    position:relative;
-    height:40px;
-    width:600px;
-    background-color:white;
-    border-radius:15px;
-    color:black;
-    padding:10px;
-    margin:25px;
+.align-faq .faq .question .faqQuestion {
+  position: relative;
+  height: 40px;
+  width: 600px;
+  background-color: white;
+  border-radius: 15px;
+  color: black;
+  padding: 10px;
+  margin: 25px;
 }
-.align-faq .faq .question .faqQuestion .answer{
-    position:absolute;
-    top:0;
-    left:0;
-    height:60px;
-    width:600px;
-    background-color:white;
-    border-radius:15px;
-    color:black;
-    padding:10px;
-    transition: opacity 0.01s ease;
-    opacity:0;
+.align-faq .faq .question .faqQuestion .answer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 600px;
+  background-color: white;
+  border-radius: 15px;
+  color: black;
+  padding: 10px;
+  transition: opacity 0.01s ease;
+  opacity: 0;
 }
-.align-faq .faq .question .faqQuestion .answer:hover{
-    opacity:1;
+.align-faq .faq .question .faqQuestion .answer:hover {
+  opacity: 1;
 }
