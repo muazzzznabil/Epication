@@ -99,6 +99,10 @@
 .textMember {
   text-align: center;
 }
+
+.textMember a:link {
+  text-decoration: none;
+}
 #FaQs {
   margin-top: 30px;
 }
