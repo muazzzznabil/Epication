@@ -1,94 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: google;
+}
+
 .content {
-    font-family: google1;
-    position: relative;
-    top: 80px;
-    line-height: 60px;
-    text-align: center;
-    font-weight: 800;
-    font-size: 12px;
-    color: #fff;
-    text-shadow: 0px 0px 40px black;
-    letter-spacing: 2px;
+  font-family: google1;
+  position: relative;
+  top: 80px;
+  line-height: 60px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 12px;
+  color: #fff;
+  text-shadow: 0px 0px 40px black;
+  letter-spacing: 2px;
 }
 
-.content h2{
-    text-align: left;
-    padding-left: 2%;
-}
-.box{
-    background-color: rgb(74, 73, 72);
-    margin: 1% 10% 10% 10% ;
-    border-radius: 1%;  
-}
-.boxtop{
-    display: flex;
-    padding-bottom: 2%;
-    padding-right: 2%;
-    
-}
-
-
-
-
-.box .itenary{
-  padding-top: 5%;
-    background-color: white;
-    color: black;
-    width: 460px;
-}
-.itenary h3{
-  font-size: 24px;
-  line-height:100%;
-}
-.itenary h5{
-  font-size: 15px;
-  text-decoration: underline;
-}
-.itenary p{
-  font-size: 14px ; 
-  line-height:80%; 
-  padding-bottom: 20%;
-}
-
-.boxbottom{
-    justify-content: center;
-    padding: 0.0000001% 2% 2% 2%;
-    color: black;
-  
-    
-}
-.desc{
-    background-color: rgb(255, 255, 255);
-    padding: 2% 2% 2% 2%;
-    border-radius: 2%;
-    line-height:1.5;
-}
-.desc h3{
-  font-size: 30px;
- 
-}
-
-.desc h4{
-  text-align: left;
-  font-style: oblique;
-  font-size: 20px;
- 
-}
-
-.desc h5{
-  font-size: 15px;
-  text-align: left;
-  text-decoration: underline;
-}
-
-.desc ul{
+.content h2 {
   text-align: left;
   padding-left: 2%;
 }
-.desc p{
-  font-size: 10px ; 
-  line-height:120%; 
-   text-align: justify;
+.box {
+  background-color: rgb(74, 73, 72);
+  margin: 1% 10% 10% 10%;
+  border-radius: 1%;
+}
+.boxtop {
+  display: flex;
+  padding-bottom: 2%;
+  padding-right: 2%;
+}
+
+.box .itenary {
+  padding-top: 5%;
+  background-color: white;
+  color: black;
+  width: 460px;
+}
+.itenary h3 {
+  font-size: 24px;
+  line-height: 100%;
+}
+.itenary h5 {
+  font-size: 15px;
+  text-decoration: underline;
+}
+.itenary p {
+  font-size: 14px;
+  line-height: 80%;
+  padding-bottom: 20%;
+}
+
+.boxbottom {
+  justify-content: center;
+  padding: 0.0000001% 2% 2% 2%;
+  color: black;
+}
+.desc {
+  background-color: rgb(255, 255, 255);
+  padding: 2% 2% 2% 2%;
+  border-radius: 2%;
+  line-height: 1.5;
+}
+.desc h3 {
+  font-size: 30px;
+}
+
+.desc h4 {
+  text-align: left;
+  font-style: oblique;
+  font-size: 20px;
+}
+
+.desc h5 {
+  font-size: 15px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.desc ul {
+  text-align: left;
+  padding-left: 2%;
+}
+.desc p {
+  font-size: 10px;
+  line-height: 120%;
+  text-align: justify;
 }
 
 img {
@@ -114,7 +113,8 @@ img {
 }
 
 /* Next & previous buttons */
-.boxtop .prev, .next {
+.boxtop .prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 35%;
@@ -136,7 +136,6 @@ img {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-
 }
 
 /* On hover, add a black background color with a little bit see-through */
