@@ -1,0 +1,87 @@
+body {
+  background-color: aliceblue;
+  background-image: url(image/cartBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mid {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="checkbox"] {
+  margin: 10px;
+}
+.cartContainer {
+  display: flex;
+  justify-content: center;
+  width: 60vw;
+  background-color: rgb(211, 215, 218);
+  padding: 50px;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+.cartHeader {
+  width: 30vw;
+  background-color: rgb(222, 222, 222);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.cartBody {
+  background-color: rgb(222, 222, 222);
+  height: 28vh;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.countryDetail {
+  float: right;
+  margin: 30px;
+}
+.cartHeader h2 {
+  padding: 20px;
+}
+
+.cartBody img {
+  width: 150px;
+  border: 1px solid black;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+.cartAmount {
+  background-color: rgb(222, 222, 222);
+  width: 20vw;
+  height: 10vh;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.checkoutButton {
+  margin: 10px;
+}
+
+.checkoutButton button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.checkoutButton button:hover {
+  background-color: rgb(85, 97, 107);
+  color: white;
+}
+
+/* .footer{
+    position: absolute;
+    bottom: 0;
+} */
+
+.left {
+  margin: 0 50px 50px 50px;
+}
