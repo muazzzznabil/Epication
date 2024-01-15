@@ -19,12 +19,35 @@ body {
 } */
 
 .trapezium {
-  margin-top: 20vh;
+  /* margin-top: 10vh; */
+  margin-top: 30px;
+  display: flex;
+  position: relative;
 }
-carousel-item img {
-  height: 10px;
+.trapezium img {
+  /* height: 10px; */
+  /* width: 50vw; */
+  width: 100%;
+}
+.trapeziumTextLeft {
+  position: absolute;
+  font-size: 700%;
+  color: rgb(255, 255, 255);
+  top: 22%;
+  left: 12%;
+  text-shadow: 0 0 10px rgb(54, 112, 166);
 }
 
+.trapeziumTextRight {
+  position: absolute;
+  font-size: 350%;
+  color: rgb(16, 42, 66);
+  top: 52%;
+  right: 7%;
+  font-family: google1;
+  text-align: right;
+  text-shadow: 0 0 10px rgb(255, 255, 255);
+}
 .destinationTop {
   margin-top: 100px;
   display: flex;

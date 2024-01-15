@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  <!-- Navigation Bar dan Logo -->
   <section class="quotes">
     <p>
       "Travel makes one modest, you see what a tiny place you occupy in the
@@ -30,12 +31,15 @@
       <a href="About.html">About Us</a>
       <a href="contact.html">Contact Us</a>
       <a href="faq.html">FaQs</a>
-      <a href="#">Terms and Conditions</a>
+      <a href="T&C.html">Terms and Conditions</a>
     </nav>
     <div class="icon">
-      <i class="bx bx-search" id="user"></i>
+      <div class="search">
+        <input type="text" placeholder="Search" class="searchbox" />
+        <i class="bx bx-search" id="user1"></i>
+      </div>
       <a href="LoginNew.html"><i class="bx bx-user" id="user"></i></a>
-      <i class="bx bx-cart" id="user"></i>
+      <a href="cart.html"><i class="bx bx-cart" id="user"></i></a>
     </div>
   </header>
 
@@ -48,27 +52,20 @@
         </div>
 
         <div class="cartBody">
-          <a href="Destination6.html">
-            <img src="image/Japan.jpg" alt="Image of japan">
-          </a>
-          <div class="countryDetail">
-            <p><b>Japan</b></p>
-            <p>Place: Osaka</p>
-            <p>Rating 4.4 🌟🌟🌟🌟 <br>very good <br>230 reviews</p>
-          </div>
+          <h2 style="text-align: center; align-items: center;">No items in your cart</h2>
           <div class="cartBodyFooter">
             <br><br> <br>
             <hr>
             <input type="checkbox" style="display: inline;" name="confirm"><label style="margin-left: 10px;"
-              for="confirm">Japan : Osaka</label>
-            <p style="float: right; margin: 10px;">MYR 6,500</p>
+              for="confirm"></label>
+            <p style="float: right; margin: 10px;">MYR 0.00</p>
           </div>
 
         </div>
       </div>
 
-      <div class="cartAmount">
-        <p>Total: MYR 6,500</p>
+      <div class="cartAmount" style="height: 10vh;">
+        <p>Total: MYR 0.00</p>
         <div class="checkoutButton">
           <button>Checkout</button>
         </div>
@@ -82,8 +79,8 @@
     <div class="foot">
       <h3>Hotline Number</h3>
       <br />
-      <p>013-4367635</p>
-      <p>019-5667824</p>
+      <p>013-4367635 (Farid)</p>
+      <p>019-5667824 (Imran)</p>
       <br />
       <h3>Subscribe to our email</h3>
       <input type="email" placeholder="Enter your email" class="email" />

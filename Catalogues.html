@@ -23,7 +23,7 @@
 
 
     <!-- <link rel="stylesheet" href="footer.css"> -->
-
+    <!-- sdkjhfgsdf -->
     <title>Catalogue</title>
 
     <style>
@@ -83,8 +83,52 @@
             color: white;
         }
 
+        #user1 {
+            margin-top: 9px;
+            margin-right: 5px;
+            font-size: 25px;
+            color: black;
+            float: right;
+        }
+
         .iconCatalogue #user:hover {
             color: grey;
+        }
+
+        .iconCatalogue {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .iconCatalogue .searchCatalogue {
+            height: 40px;
+            width: auto;
+            background-color: white;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            border: 0;
+        }
+
+        .searchboxCatalogue {
+            border: none;
+            border-radius: 15px;
+            padding-left: 15px;
+        }
+
+        .searchboxCatalogue:active {
+            border: none;
+        }
+
+        .searchboxCatalogue::placeholder {
+            padding: 0px;
+            font-size: 14px;
+        }
+
+        input:focus {
+            outline: none;
+            border: none;
         }
 
         /* Footer */
@@ -122,6 +166,11 @@
         .footerCatalogue .footCatalogue .emailCatalogue::placeholder {
             font-size: 15px;
         }
+
+        .logoCatalogue:hover {
+            text-decoration: none;
+            color: white;
+        }
     </style>
 </head>
 
@@ -133,7 +182,7 @@
             world." - Gustave Flaubert
         </p>
     </section>
-    <header class="headerCatalogue">
+    <div class="headerCatalogue">
         <a href="Homepage.html" class="logoCatalogue">epication</a>
         <nav class="navbarCatalogue">
             <a href="Homepage.html">Home</a>
@@ -145,48 +194,39 @@
             <a href="#">Terms and Conditions</a>
         </nav>
         <div class="iconCatalogue">
-            <i class="bx bx-search" id="user"></i>
+            <div class="searchCatalogue">
+                <input type="text" placeholder="Search" class="searchboxCatalogue" />
+                <i class="bx bx-search" id="user1"></i>
+            </div>
             <a href="LoginNew.html"><i class="bx bx-user" id="user"></i></a>
-            <a href="cart.html">
-                <i class="bx bx-cart" id="user"></i>
-            </a>
+            <a href="cart.html"><i class="bx bx-cart" id="user"></i></a>
         </div>
-    </header>
+    </div>
 
 
-    <!-- <div class="trapezium" style="display: flex; ">
-
-        <div class="carousel " data-ride="carousel">
+    <div class="trapezium">
+        <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="left " src="image/klcc.jpg" alt="First slide" style="object-fit: cover; ;">
+                    <img class="d-block w-100" src="image/firstTrapezium.png" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="left" src="image/Japan.jpg" alt="Second slide" style="object-fit: cover ;">
+                    <img class="d-block w-100" src="image/secTrapezium.png" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="left " src="image/zurich.jpg" alt="Third slide" style="object-fit: cover ;">
+                    <img class="d-block w-100" src="image/thirdTrapezium.png" alt="Third slide">
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div id="" class="carousel" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block  right" src="image/bali(trapezium).jpg" alt="First slide"
-                        style="object-fit: cover; ">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block  right" src="image/kashmir.jpg" alt="Second slide"
-                        style="object-fit: cover ;">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block  right" src="image/zurich.jpg" alt="Third slide" style="object-fit: cover ;">
-                </div>
-            </div>
+        <img src="image/firstTrapezium.png" alt="">
+        <div class="trapeziumTextLeft">
+            <p>epication</p>
         </div>
-
-    </div> -->
+        <div class="trapeziumTextRight">
+            <p>- Start Your Journey With Us!! -</p>
+        </div>
+    </div>
 
 
     <div class="destinationTop">
@@ -301,8 +341,8 @@
         <div class="footCatalogue">
             <h3>Hotline Number</h3>
             <br />
-            <p>013-4367635</p>
-            <p>019-5667824</p>
+            <p>013-4367635 (Farid)</p>
+            <p>019-5667824 (Imran)</p>
             <br />
             <h3>Subscribe to our email</h3>
             <input type="email" placeholder="Enter your email" class="emailCatalogue" />

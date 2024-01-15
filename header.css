@@ -2,11 +2,6 @@
   font-family: google;
   src: url(font/GoogleSans-Regular.ttf);
 }
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .head {
   z-index: 100;
 }
@@ -51,6 +46,43 @@ header {
   font-size:25px;
   color:white;
 }
+#user1{
+  margin-top:9px;
+  margin-right:5px;
+  font-size:25px;
+  color:black;
+  float:right;
+}
 .icon #user:hover{
   color:grey;
+}
+.icon{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon .search{
+  height:40px;
+  width:auto;
+  background-color:white;
+  border-radius:15px;
+  display:flex;
+  justify-content: center;
+  border:0;
+}
+.searchbox{
+  border:none;
+  border-radius: 15px;
+  padding-left:15px;
+}
+.searchbox:active{
+  border: none;
+}
+.searchbox::placeholder{
+  padding:0px;
+  font-size:14px;
+}
+input:focus {
+  outline: none;
+  border: none;
 }
