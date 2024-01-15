@@ -63,7 +63,7 @@ input[type="checkbox"] {
 .cartAmount {
   background-color: var(--secondary-color);
   width: 20vw;
-  height: 10vh;
+  height: 12vh;
   padding: 10px;
   border-radius: 5px;
 }
@@ -85,6 +85,9 @@ input[type="checkbox"] {
   color: white;
 }
 
+.cartAmount p {
+  padding: 10px;
+}
 /* .footer{
     position: absolute;
     bottom: 0;
