@@ -80,22 +80,24 @@ body {
   font-weight: 900;
 }
 
-.desc h5 {
+.desc h5{
   font-size: 15px;
   text-align: left;
   text-decoration: underline;
 }
 .desc li {
   text-align: left;
+  font-size: 20px;
 }
 .desc ul {
   text-align: left;
   padding-left: 2%;
+  
 }
-.desc p {
-  font-size: 10px;
-  line-height: 120%;
-  text-align: justify;
+.desc p{
+  font-size: 10px ; 
+  line-height:120%; 
+   text-align: justify;
 }
 
 img {
