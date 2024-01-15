@@ -40,7 +40,7 @@ input[type="checkbox"] {
 
 .cartBody {
   background-color: var(--secondary-color);
-  height: 28vh;
+  height: auto;
   border-radius: 5px;
   padding: 10px;
 }
@@ -63,13 +63,13 @@ input[type="checkbox"] {
 .cartAmount {
   background-color: var(--secondary-color);
   width: 20vw;
-  height: 12vh;
+  height: 25%;
   padding: 10px;
   border-radius: 5px;
 }
 
 .checkoutButton {
-  margin: 10px;
+  margin: auto;
 }
 
 .checkoutButton button {
