@@ -77,3 +77,9 @@
     color:rgb(75, 151, 193);
     font-weight:700;
 }
+.dialog{
+  height:auto;
+  width:200px;
+  background-color:white;
+  border-radius:5px;
+}
