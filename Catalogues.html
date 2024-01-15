@@ -22,7 +22,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
-    <link rel="stylesheet" href="footer.css">
+    <!-- <link rel="stylesheet" href="footer.css"> -->
 
     <title>Catalogue</title>
 
@@ -86,6 +86,42 @@
         .iconCatalogue #user:hover {
             color: grey;
         }
+
+        /* Footer */
+        .footerCatalogue {
+            position: relative;
+            min-height: 400px;
+            width: 100%;
+            background-color: #181d31;
+        }
+
+        .footerCatalogue .footCatalogue {
+            text-align: center;
+            padding-top: 30px;
+            color: white;
+            letter-spacing: 1px;
+        }
+
+        .footerCatalogue .footCatalogue p {
+            font-size: 18px;
+        }
+
+        .footerCatalogue .footCatalogue h5 {
+            margin-top: 15px;
+            font-size: 13px;
+        }
+
+        .footerCatalogue .footCatalogue .emailCatalogue {
+            margin-top: 15px;
+            border-radius: 5px;
+            width: 650px;
+            height: 40px;
+            padding: 20px;
+        }
+
+        .footerCatalogue .footCatalogue .emailCatalogue::placeholder {
+            font-size: 15px;
+        }
     </style>
 </head>
 
@@ -111,7 +147,9 @@
         <div class="iconCatalogue">
             <i class="bx bx-search" id="user"></i>
             <a href="LoginNew.html"><i class="bx bx-user" id="user"></i></a>
-            <i class="bx bx-cart" id="user"></i>
+            <a href="cart.html">
+                <i class="bx bx-cart" id="user"></i>
+            </a>
         </div>
     </header>
 
@@ -154,7 +192,7 @@
     <div class="destinationTop">
         <div class="TurkiyeImage">
             <div>
-                <a href="turkiye.html"><img src="image/balloonSq.jpg" id="HoverZoom" alt="Ballon at turkies"
+                <a href="Destination1.html"><img src="image/balloonSq.jpg" id="HoverZoom" alt="Ballon at turkies"
                         style="border-radius: 20px 0 0 20px ;"></a>
             </div>
             <div class="textCaptionTurkiye" id="HoverZoomText">
@@ -163,14 +201,14 @@
         </div>
         <div class="destinationLeft">
             <div class="TurkiyeImage">
-                <a href="japan.html"><img src="image/Japan.jpg" id="HoverZoom" alt="Mount Verzasca in swiss"
+                <a href="Destination6.html"><img src="image/Japan.jpg" id="HoverZoom" alt="Mount Verzasca in swiss"
                         style="display: block; margin-bottom: 20px; border-radius: 0 20px 0 0;"></a>
                 <div class="textCaptionTurkiye " id="HoverZoomText" style="bottom: 5%; left: 10%;">
                     <h2>Japan <span class="countryPrice">MYR 6,500</span></h2>
                 </div>
             </div>
             <div class="TurkiyeImage">
-                <a href="switzerland.html"> <img src="image/verzascaSwiss.jpg" id="HoverZoom" alt="Mount Fuji Japan"
+                <a href="Destination2.html"> <img src="image/verzascaSwiss.jpg" id="HoverZoom" alt="Mount Fuji Japan"
                         style="border-radius: 0 0 20px;"></a>
                 <div class="textCaptionTurkiye" id="HoverZoomText" style="bottom: 5%; left: 10%;">
                     <h2>Switzerland <span class="countryPrice">MYR 15,000</span></h2>
@@ -182,14 +220,14 @@
     <div class="destinationBot">
         <div class="destinationRight">
             <div class="TurkiyeImage">
-                <a href="china.html"><img src="image/China.jpg" id="HoverZoom" alt="Great Wall of China"
+                <a href="Destination5.html"><img src="image/China.jpg" id="HoverZoom" alt="Great Wall of China"
                         style="display: block; margin-bottom: 20px ;border-radius: 20px 0 0 0; "></a>
                 <div class="textCaptionTurkiye" id="HoverZoomText" style="bottom: 5%; left: 10%;">
                     <h2>China <span class="countryPrice">MYR 11,000</span></h2>
                 </div>
             </div>
             <div class="TurkiyeImage">
-                <a href="indonesia.html"> <img src="image/nusapenida.jpg" id="HoverZoom" alt="Nusapenida in Bali"
+                <a href="Destination3.html"> <img src="image/nusapenida.jpg" id="HoverZoom" alt="Nusapenida in Bali"
                         style="border-radius: 0 0 0 20px;"></a>
                 <div class="textCaptionTurkiye" id="HoverZoomText" style="bottom : 5%; left: 10%;">
                     <h2>Indonesia <span class="countryPrice">MYR 4,300</span></h2>
@@ -197,7 +235,7 @@
             </div>
         </div>
         <div class="TurkiyeImage">
-            <a href="uae.html"><img src="image/dubaiPetak.jpg" id="HoverZoom" alt="City Of Dubai"
+            <a href="Destination4.html"><img src="image/dubaiPetak.jpg" id="HoverZoom" alt="City Of Dubai"
                     id="dubaiPetak" style="border-radius: 0 20px 20px 0;"></a>
             <div class="textCaptionTurkiye" id="HoverZoomText">
                 <h2>Dubai <span class="countryPrice">MYR 15,000</span></h2>
@@ -258,6 +296,7 @@
         </div>
     </div>
 
+    <!-- footer -->
     <div class="footerCatalogue">
         <div class="footCatalogue">
             <h3>Hotline Number</h3>
