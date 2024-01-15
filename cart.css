@@ -18,21 +18,22 @@ input[type="checkbox"] {
   display: flex;
   justify-content: center;
   width: 60vw;
-  background-color: rgb(211, 215, 218);
+  background-color: rgba(119, 137, 151, 0.386);
   padding: 50px;
   border-radius: 10px;
   margin: 50px;
+  --secondary-color: rgb(228, 237, 245);
 }
 
 .cartHeader {
   width: 30vw;
-  background-color: rgb(222, 222, 222);
+  background-color: var(--secondary-color);
   border-radius: 5px;
   margin-bottom: 30px;
 }
 
 .cartBody {
-  background-color: rgb(222, 222, 222);
+  background-color: var(--secondary-color);
   height: 28vh;
   border-radius: 5px;
   padding: 10px;
@@ -54,7 +55,7 @@ input[type="checkbox"] {
 }
 
 .cartAmount {
-  background-color: rgb(222, 222, 222);
+  background-color: var(--secondary-color);
   width: 20vw;
   height: 10vh;
   padding: 10px;
@@ -70,6 +71,7 @@ input[type="checkbox"] {
   padding: 10px;
   border: none;
   border-radius: 5px;
+  background-color: rgb(175, 178, 181);
 }
 
 .checkoutButton button:hover {
