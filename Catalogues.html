@@ -83,8 +83,52 @@
             color: white;
         }
 
+        #user1 {
+            margin-top: 9px;
+            margin-right: 5px;
+            font-size: 25px;
+            color: black;
+            float: right;
+        }
+
         .iconCatalogue #user:hover {
             color: grey;
+        }
+
+        .iconCatalogue {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .iconCatalogue .searchCatalogue {
+            height: 40px;
+            width: auto;
+            background-color: white;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            border: 0;
+        }
+
+        .searchboxCatalogue {
+            border: none;
+            border-radius: 15px;
+            padding-left: 15px;
+        }
+
+        .searchboxCatalogue:active {
+            border: none;
+        }
+
+        .searchboxCatalogue::placeholder {
+            padding: 0px;
+            font-size: 14px;
+        }
+
+        input:focus {
+            outline: none;
+            border: none;
         }
 
         /* Footer */
@@ -133,7 +177,7 @@
             world." - Gustave Flaubert
         </p>
     </section>
-    <header class="headerCatalogue">
+    <div class="headerCatalogue">
         <a href="Homepage.html" class="logoCatalogue">epication</a>
         <nav class="navbarCatalogue">
             <a href="Homepage.html">Home</a>
@@ -145,13 +189,14 @@
             <a href="#">Terms and Conditions</a>
         </nav>
         <div class="iconCatalogue">
-            <i class="bx bx-search" id="user"></i>
+            <div class="searchCatalogue">
+                <input type="text" placeholder="Search" class="searchboxCatalogue" />
+                <i class="bx bx-search" id="user1"></i>
+            </div>
             <a href="LoginNew.html"><i class="bx bx-user" id="user"></i></a>
-            <a href="cart.html">
-                <i class="bx bx-cart" id="user"></i>
-            </a>
+            <a href="cart.html"><i class="bx bx-cart" id="user"></i></a>
         </div>
-    </header>
+    </div>
 
 
     <!-- <div class="trapezium" style="display: flex; ">
