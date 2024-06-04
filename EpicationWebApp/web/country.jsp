@@ -191,7 +191,7 @@
       <br />
       <h3>Subscribe to our email</h3>
       <input type="email" placeholder="Enter your email" class="email" />
-      <h5>Copyright © 2023 | epication.co</h5>
+      <h5>Copyright © 2024 | epication.co</h5>
     </div>
   </div>
 </body>
